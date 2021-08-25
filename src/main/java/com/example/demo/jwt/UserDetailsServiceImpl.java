@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @AllArgsConstructor
-@Service
+@Service(value = "userDetailsServiceImplementation")
 public class UserDetailsServiceImpl implements UserDetailsService {
 
     private final CustomerRepository userRepository;

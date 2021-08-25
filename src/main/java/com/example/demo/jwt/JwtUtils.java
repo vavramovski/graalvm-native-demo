@@ -1,55 +1,38 @@
 package com.example.demo.jwt;
 
-import io.jsonwebtoken.*;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
+import java.security.NoSuchAlgorithmException;
 import java.util.Date;
+import java.util.List;
 
-
+@Slf4j
 @Component
 public class JwtUtils {
 
-    @Value("${jwt.secret}")
-    private String jwtSecret;
+    @Value("${jwt.token.validity}")
+    private int jwtExpirationMs;
 
-    private static final int jwtExpirationMs = 60 * 60 * 1000;
-
-    public String generateJwtToken(Authentication authentication) {
+    public String generateJwtToken(Authentication authentication) throws JsonProcessingException {
 
         UserDetailsImpl userPrincipal = (UserDetailsImpl) authentication.getPrincipal();
+        Date expire = new Date();
+        expire.setTime(expire.getTime() + jwtExpirationMs);
+        JwtToken token = new JwtToken(userPrincipal.getUsername(), List.of("user"), expire.getTime());
 
-        return Jwts.builder()
-                .setSubject((userPrincipal.getUsername()))
-                .setIssuedAt(new Date())
-                .setExpiration(new Date((new Date()).getTime() + jwtExpirationMs))
-                .signWith(SignatureAlgorithm.HS512, jwtSecret)
-                .compact();
+        return token.toString();
     }
 
-    public String getUserNameFromJwtToken(String token) {
-        return Jwts.parser().setSigningKey(jwtSecret).parseClaimsJws(token).getBody().getSubject();
+    public String getUserNameFromJwtToken(String token) throws JsonProcessingException, NoSuchAlgorithmException {
+        return new JwtToken(token).getSubject();
     }
 
-    public boolean validateJwtToken(String authToken) {
-        try {
-            Jwts.parser().setSigningKey(jwtSecret).parseClaimsJws(authToken);
-            return true;
-        } catch (SignatureException e) {
-            System.err.println("Invalid JWT signature: {}");
-        } catch (MalformedJwtException e) {
-            System.err.println("Invalid JWT token: {}");
-        } catch (ExpiredJwtException e) {
-            System.err.println("JWT token is expired: {}");
-        } catch (UnsupportedJwtException e) {
-            System.err.println("JWT token is unsupported: {}");
-        } catch (IllegalArgumentException e) {
-            System.err.println("JWT claims string is empty: {}");
-        }
-        return false;
+    public boolean validateJwtToken(String authToken) throws JsonProcessingException, NoSuchAlgorithmException {
+        return new JwtToken(authToken).isValid();
     }
-
 
 }
-
