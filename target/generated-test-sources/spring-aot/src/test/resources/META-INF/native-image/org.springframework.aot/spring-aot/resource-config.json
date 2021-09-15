@@ -785,12 +785,6 @@
         "pattern": "org/springframework/boot/web/servlet/error/ErrorController.class"
       },
       {
-        "pattern": "org/springframework/cache/annotation/CachingConfigurationSelector.class"
-      },
-      {
-        "pattern": "org/springframework/cache/annotation/EnableCaching.class"
-      },
-      {
         "pattern": "org/springframework/context/ApplicationContextAware.class"
       },
       {

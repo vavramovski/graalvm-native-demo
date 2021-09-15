@@ -126,16 +126,6 @@
     "allDeclaredClasses": true
   },
   {
-    "name": "com.example.demo.jwt.LoginRequest",
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "com.example.demo.jwt.SignupRequest",
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
     "name": "com.example.demo.jwt.UserDetailsServiceImpl",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
@@ -166,6 +156,21 @@
     "allDeclaredMethods": true,
     "allPublicMethods": true,
     "allDeclaredClasses": true
+  },
+  {
+    "name": "com.example.demo.payload.request.LoginRequest",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.example.demo.payload.request.SignupRequest",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.example.demo.payload.response.JwtResponse",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "com.example.demo.repository.CartRepository",
@@ -544,6 +549,13 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "javax.cache.CacheManager",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "javax.cache.Caching"
+  },
+  {
     "name": "javax.persistence.Column",
     "allDeclaredMethods": true
   },
@@ -587,6 +599,14 @@
   },
   {
     "name": "javax.persistence.MappedSuperclass",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "javax.persistence.OneToMany",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "javax.persistence.OneToOne",
     "allDeclaredMethods": true
   },
   {
@@ -1639,6 +1659,12 @@
         "name": "setBannerMode",
         "parameterTypes": [
           "org.springframework.boot.Banner$Mode"
+        ]
+      },
+      {
+        "name": "setWebApplicationType",
+        "parameterTypes": [
+          "org.springframework.boot.WebApplicationType"
         ]
       }
     ]
@@ -4221,16 +4247,6 @@
   },
   {
     "name": "org.springframework.cache.CacheManager"
-  },
-  {
-    "name": "org.springframework.cache.annotation.CachingConfigurationSelector",
-    "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.springframework.cache.annotation.EnableCaching",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.cache.concurrent.ConcurrentMapCacheManager",
