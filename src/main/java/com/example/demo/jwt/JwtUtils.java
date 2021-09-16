@@ -1,11 +1,13 @@
 package com.example.demo.jwt;
 
-import com.example.demo.jsonwebtoken.*;
+import io.jsonwebtoken.*;
+import io.jsonwebtoken.SignatureException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
+import java.security.*;
 import java.util.Date;
 
 @Slf4j
@@ -18,6 +20,16 @@ public class JwtUtils {
     @Value("${jwt.secret}")
     private String jwtSecret;
 
+    PublicKey publicKey;
+    PrivateKey privateKey;
+
+    public JwtUtils() throws NoSuchAlgorithmException {
+        KeyPairGenerator keyGenerator = KeyPairGenerator.getInstance("RSA");
+        KeyPair kp = keyGenerator.genKeyPair();
+        publicKey = (PublicKey) kp.getPublic();
+        privateKey = (PrivateKey) kp.getPrivate();
+    }
+
     public String generateJwtToken(Authentication authentication) {
 
         UserDetailsImpl userPrincipal = (UserDetailsImpl) authentication.getPrincipal();
@@ -26,17 +38,18 @@ public class JwtUtils {
                 .setSubject((userPrincipal.getUsername()))
                 .setIssuedAt(new Date())
                 .setExpiration(new Date((new Date()).getTime() + jwtExpirationMs))
-                .signWith(SignatureAlgorithm.HS256, jwtSecret)
+                .signWith(SignatureAlgorithm.RS256, privateKey)
                 .compact();
     }
 
     public String getUserNameFromJwtToken(String token) {
-        return Jwts.parser().setSigningKey(jwtSecret).parseClaimsJws(token).getBody().getSubject();
+        return Jwts.parser().setSigningKey(privateKey).parseClaimsJws(token).getBody().getSubject();
     }
 
     public boolean validateJwtToken(String authToken) {
         try {
-            Jwts.parser().setSigningKey(jwtSecret).parseClaimsJws(authToken);
+
+            Jwts.parser().setSigningKey(privateKey).parseClaimsJws(authToken);
             return true;
         } catch (SignatureException e) {
             System.out.printf("Invalid JWT signature: %s%n", e.getMessage());

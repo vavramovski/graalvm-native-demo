@@ -7,18 +7,17 @@ import org.springframework.nativex.hint.NativeHint;
 import org.springframework.nativex.hint.TypeHint;
 
 
-/*
-@NativeHint(types = {
-        @TypeHint(
-                typeNames = "org.bouncycastle.jcajce.provider.asymmetric.RSA$Mappings",
-                access= AccessBits.PUBLIC_CONSTRUCTORS | AccessBits.PUBLIC_METHODS
-        )
-})
-*/
-/*@TypeHint(
-        typeNames = "org.bouncycastle.jcajce.provider.asymmetric.rsa.KeyFactorySpi",
-        access= AccessBits.PUBLIC_CONSTRUCTORS | AccessBits.PUBLIC_METHODS
-)*/
+/*@NativeHint(
+        types = {
+                @TypeHint(
+                        typeNames = "org.bouncycastle.jcajce.provider.asymmetric.RSA$Mappings",
+                        access= AccessBits.PUBLIC_CONSTRUCTORS | AccessBits.PUBLIC_METHODS
+                ),
+                @TypeHint(
+                        typeNames = "org.bouncycastle.jcajce.provider.asymmetric.rsa.KeyFactorySpi",
+                        access= AccessBits.PUBLIC_CONSTRUCTORS | AccessBits.PUBLIC_METHODS
+                )
+        })*/
 @SpringBootApplication
 public class DemoApplication {
 

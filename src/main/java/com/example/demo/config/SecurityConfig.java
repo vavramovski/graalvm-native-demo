@@ -67,13 +67,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
                 .authorizeRequests()
                 .antMatchers("/auth/signin", "/auth/signup").permitAll()
-//                .antMatchers("/h2-console").permitAll()
+                .antMatchers("/h2-console").permitAll()
                 .antMatchers("/login").permitAll()
                 .antMatchers("/products", "/products/**", "/products/**/**").permitAll()
                 .antMatchers("/users", "/users/**", "/users/**/**").permitAll()
                 .antMatchers("/cart", "/cart/**", "/cart/**/**").authenticated()
                 .anyRequest().authenticated()
                 .and().addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
+        http.headers().frameOptions().sameOrigin();
     }
 
 }
