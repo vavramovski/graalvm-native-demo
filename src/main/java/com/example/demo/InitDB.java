@@ -23,12 +23,15 @@ public class InitDB {
 
     @PostConstruct
     public void init() {
+        /*if (customerService.getAllUsers().size() > 0) {
+            return;
+        }
         Customer user = new Customer("Viktor", "123456");
         Product product = new Product("LED Sijalica", 200d);
         product = productService.addProduct(product);
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         user = customerService.addUser(user);
         Cart cart = cartService.createCartForUser(user.getId());
-        cartService.addProductToCart(cart.getId(), product.getId());
+        cartService.addProductToCart(cart.getId(), product.getId());*/
     }
 }

@@ -13,6 +13,10 @@
     "org.hibernate.query.spi.QueryImplementor"
   ],
   [
+    "org.springframework.beans.factory.annotation.Qualifier",
+    "org.springframework.core.annotation.SynthesizedAnnotation"
+  ],
+  [
     "org.springframework.web.bind.annotation.RequestMapping",
     "org.springframework.core.annotation.SynthesizedAnnotation"
   ],

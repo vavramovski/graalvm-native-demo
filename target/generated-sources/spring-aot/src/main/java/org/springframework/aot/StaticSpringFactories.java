@@ -94,7 +94,6 @@ public abstract class StaticSpringFactories {
     names.add(EnableAutoConfiguration.class, "org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration");
     names.add(EnableAutoConfiguration.class, "org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration");
     names.add(EnableAutoConfiguration.class, "org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration");
-    names.add(EnableAutoConfiguration.class, "org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration");
     names.add(EnableAutoConfiguration.class, "org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration");
     names.add(EnableAutoConfiguration.class, "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration");
     names.add(EnableAutoConfiguration.class, "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration");
@@ -132,6 +131,8 @@ public abstract class StaticSpringFactories {
     factories.add(ApplicationContextInitializer.class, () -> org.springframework.boot.autoconfigure._FactoryProvider.sharedMetadataReaderFactoryContextInitializer());
     factories.add(org.springframework.context.ApplicationContextInitializer.class, () -> new org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener());
     factories.add(org.springframework.boot.diagnostics.FailureAnalyzer.class, () -> new org.springframework.nativex.GeneratedClassNotFoundExceptionFailureAnalyzer());
+    factories.add(org.springframework.boot.diagnostics.FailureAnalyzer.class, () -> new org.springframework.nativex.ClassNotFoundExceptionNativeFailureAnalyzer());
+    factories.add(org.springframework.boot.diagnostics.FailureAnalyzer.class, () -> new org.springframework.nativex.NoSuchMethodExceptionNativeFailureAnalyzer());
     factories.add(org.springframework.context.ApplicationListener.class, () -> new org.springframework.nativex.NativeListener());
   }
 }

@@ -60,6 +60,12 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "com.example.demo.DemoApplicationTests",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "com.example.demo.InitDB",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
@@ -118,6 +124,12 @@
     "allDeclaredConstructors": true
   },
   {
+    "name": "com.example.demo.jwt.JwtResponse",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "com.example.demo.jwt.JwtUtils",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
@@ -127,11 +139,19 @@
   },
   {
     "name": "com.example.demo.jwt.LoginRequest",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
   {
     "name": "com.example.demo.jwt.SignupRequest",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.example.demo.jwt.UserDetailsImpl",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
@@ -142,6 +162,11 @@
     "allDeclaredMethods": true,
     "allPublicMethods": true,
     "allDeclaredClasses": true
+  },
+  {
+    "name": "com.example.demo.jwt.UserDetailsServiceImpl$$SpringProxy$9816547f",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "com.example.demo.model.Cart",
@@ -231,10 +256,34 @@
     "allDeclaredClasses": true
   },
   {
+    "name": "com.fasterxml.jackson.annotation.JacksonAnnotation",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonAnyGetter",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonAnySetter",
+    "allDeclaredMethods": true
+  },
+  {
     "name": "com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility"
   },
   {
+    "name": "com.fasterxml.jackson.annotation.JsonCreator",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonGetter",
+    "allDeclaredMethods": true
+  },
+  {
     "name": "com.fasterxml.jackson.annotation.JsonIgnore",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonIgnoreProperties",
     "allDeclaredMethods": true
   },
   {
@@ -243,6 +292,34 @@
   },
   {
     "name": "com.fasterxml.jackson.annotation.JsonInclude$Include",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonProperty",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonPropertyOrder",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonSetter",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonTypeInfo",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonUnwrapped",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonValue",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonView",
     "allDeclaredMethods": true
   },
   {
@@ -271,6 +348,14 @@
   },
   {
     "name": "com.fasterxml.jackson.databind.SerializationFeature"
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.annotation.JsonDeserialize",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.annotation.JsonSerialize",
+    "allDeclaredMethods": true
   },
   {
     "name": "com.fasterxml.jackson.module.paramnames.ParameterNamesModule",
@@ -302,12 +387,6 @@
   },
   {
     "name": "com.zaxxer.hikari.util.ConcurrentBag$IConcurrentBagEntry[]"
-  },
-  {
-    "name": "io.undertow.Undertow"
-  },
-  {
-    "name": "io.undertow.websockets.WebSocketProtocolHandshakeHandler"
   },
   {
     "name": "java.io.Serializable",
@@ -382,6 +461,10 @@
     "name": "java.lang.annotation.Annotation",
     "allDeclaredConstructors": true,
     "allPublicMethods": true
+  },
+  {
+    "name": "java.lang.reflect.Proxy",
+    "allDeclaredMethods": true
   },
   {
     "name": "java.math.BigDecimal",
@@ -505,10 +588,38 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "java.util.HashMap",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "fields": [
+      {
+        "name": "threshold",
+        "allowUnsafeAccess": true
+      },
+      {
+        "name": "loadFactor",
+        "allowUnsafeAccess": true
+      }
+    ]
+  },
+  {
+    "name": "java.util.LinkedHashSet",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "java.util.List",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
+  },
+  {
+    "name": "java.util.Locale"
+  },
+  {
+    "name": "java.util.Map"
   },
   {
     "name": "java.util.Optional",
@@ -520,9 +631,31 @@
     "name": "java.util.Properties"
   },
   {
+    "name": "java.util.Set",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "java.util.TimeZone"
+  },
+  {
     "name": "java.util.concurrent.Callable",
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
+  },
+  {
+    "name": "java.util.concurrent.CopyOnWriteArrayList",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "fields": [
+      {
+        "name": "lock",
+        "allowWrite": true,
+        "allowUnsafeAccess": true
+      }
+    ]
   },
   {
     "name": "java.util.concurrent.Executor"
@@ -578,7 +711,17 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "javax.persistence.InheritanceType",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "javax.persistence.JoinColumn",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "javax.persistence.ManyToMany",
     "allDeclaredMethods": true
   },
   {
@@ -587,6 +730,14 @@
   },
   {
     "name": "javax.persistence.MappedSuperclass",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "javax.persistence.OneToMany",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "javax.persistence.OneToOne",
     "allDeclaredMethods": true
   },
   {
@@ -742,7 +893,32 @@
     "name": "org.apache.tomcat.websocket.server.WsSci"
   },
   {
+    "name": "org.aspectj.lang.annotation.After",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.aspectj.lang.annotation.AfterReturning",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
     "name": "org.aspectj.lang.annotation.Around",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.aspectj.lang.annotation.Aspect",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.aspectj.lang.annotation.Before",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.aspectj.lang.annotation.Pointcut",
     "allDeclaredConstructors": true,
     "allPublicMethods": true
   },
@@ -750,81 +926,59 @@
     "name": "org.aspectj.weaver.Advice"
   },
   {
-    "name": "org.eclipse.jetty.websocket.server.WebSocketServerFactory"
+    "name": "org.aspectj.weaver.reflect.Java15AnnotationFinder",
+    "allDeclaredConstructors": true
   },
   {
-    "name": "org.h2.mvstore.db.MVTableEngine",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
+    "name": "org.aspectj.weaver.reflect.Java15GenericSignatureInformationProvider",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.aspectj.weaver.reflect.Java15ReflectionBasedReferenceTypeDelegate",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.assertj.core.api.Assert"
+  },
+  {
+    "name": "org.bouncycastle.jcajce.provider.asymmetric.RSA",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.bouncycastle.jcajce.provider.asymmetric.RSA$Mappings",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.bouncycastle.jcajce.provider.asymmetric.rsa.KeyFactorySpi",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.bouncycastle.jcajce.provider.asymmetric.rsa.PSSSignatureSpi$SHA512withRSA",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.bouncycastle.jce.provider.BouncyCastleProvider",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hamcrest.TypeSafeDiagnosingMatcher",
     "allDeclaredMethods": true
   },
   {
-    "name": "org.h2.server.web.WebServlet"
-  },
-  {
-    "name": "org.h2.store.fs.FilePathAsync",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
+    "name": "org.hamcrest.TypeSafeMatcher",
     "allDeclaredMethods": true
   },
   {
-    "name": "org.h2.store.fs.FilePathDisk",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
+    "name": "org.hamcrest.beans.HasProperty",
     "allDeclaredMethods": true
   },
   {
-    "name": "org.h2.store.fs.FilePathMem",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathMemLZF",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathNio",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathNioMapped",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathNioMem",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathNioMemLZF",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathRetryOnInterrupt",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathSplit",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathZip",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
+    "name": "org.hamcrest.beans.HasPropertyWithValue",
     "allDeclaredMethods": true
   },
   {
@@ -851,16 +1005,19 @@
   },
   {
     "name": "org.hibernate.bytecode.enhance.internal.tracker.DirtyTracker",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
   {
     "name": "org.hibernate.bytecode.enhance.spi.CollectionTracker",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
   {
     "name": "org.hibernate.bytecode.enhance.spi.LazyPropertyInitializer$InterceptorImplementor",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
@@ -871,19 +1028,67 @@
     "allDeclaredMethods": true
   },
   {
-    "name": "org.hibernate.dialect.H2Dialect",
+    "name": "org.hibernate.cfg.beanvalidation.TypeSafeActivator"
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL10Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL81Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL82Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL91Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL92Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL93Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL94Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL95Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL9Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgresPlusDialect",
     "allDeclaredConstructors": true
   },
   {
     "name": "org.hibernate.engine.spi.EntityEntry",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
   {
     "name": "org.hibernate.engine.spi.ExtendedSelfDirtinessTracker",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true,
-    "allPublicMethods": true
+    "allPublicMethods": true,
+    "fields": [
+      {
+        "name": "REMOVE_DIRTY_FIELDS_NAME",
+        "allowWrite": true,
+        "allowUnsafeAccess": true
+      }
+    ]
   },
   {
     "name": "org.hibernate.engine.spi.Managed",
@@ -908,6 +1113,7 @@
   },
   {
     "name": "org.hibernate.engine.spi.PersistentAttributeInterceptor",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
@@ -1515,6 +1721,25 @@
     "allDeclaredConstructors": true
   },
   {
+    "name": "org.hibernate.type.EnumType",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.postgresql.Driver",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.postgresql.PGProperty",
+    "allDeclaredFields": true
+  },
+  {
+    "name": "org.slf4j.bridge.SLF4JBridgeHandler"
+  },
+  {
     "name": "org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator",
     "allDeclaredConstructors": true,
     "allPublicMethods": true
@@ -1582,6 +1807,10 @@
     "allPublicMethods": true
   },
   {
+    "name": "org.springframework.beans.factory.FactoryBean",
+    "allDeclaredConstructors": true
+  },
+  {
     "name": "org.springframework.beans.factory.InitializingBean",
     "allDeclaredConstructors": true,
     "allPublicMethods": true
@@ -1639,6 +1868,12 @@
         "name": "setBannerMode",
         "parameterTypes": [
           "org.springframework.boot.Banner$Mode"
+        ]
+      },
+      {
+        "name": "setWebApplicationType",
+        "parameterTypes": [
+          "org.springframework.boot.WebApplicationType"
         ]
       }
     ]
@@ -1713,6 +1948,16 @@
     "allPublicMethods": true
   },
   {
+    "name": "org.springframework.boot.autoconfigure.ImportAutoConfiguration",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.ImportAutoConfigurationImportSelector",
+    "allDeclaredConstructors": true
+  },
+  {
     "name": "org.springframework.boot.autoconfigure.SpringBootApplication",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
@@ -1759,13 +2004,7 @@
     "name": "org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheConfigurationImportSelector",
@@ -1869,9 +2108,6 @@
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.cassandra.CassandraAutoConfiguration"
   },
   {
     "name": "org.springframework.boot.autoconfigure.condition.AbstractNestedCondition",
@@ -2029,13 +2265,7 @@
     "name": "org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration$ResourceBundleCondition",
@@ -2044,7 +2274,12 @@
   {
     "name": "org.springframework.boot.autoconfigure.context.MessageSourceProperties",
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "fields": [
+      {
+        "name": "cacheDuration"
+      }
+    ]
   },
   {
     "name": "org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration",
@@ -2065,40 +2300,7 @@
     "allPublicMethods": true
   },
   {
-    "name": "org.springframework.boot.autoconfigure.data.cassandra.CassandraDataAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.data.cassandra.CassandraReactiveDataAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.data.cassandra.CassandraReactiveRepositoriesAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.data.cassandra.CassandraRepositoriesAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.data.couchbase.CouchbaseDataAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.data.jdbc.JdbcRepositoriesAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
   },
   {
     "name": "org.springframework.boot.autoconfigure.data.jpa.EntityManagerFactoryDependsOnPostProcessor",
@@ -2110,13 +2312,7 @@
     "name": "org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration$BootstrapExecutorCondition",
@@ -2149,91 +2345,10 @@
     "allPublicMethods": true
   },
   {
-    "name": "org.springframework.boot.autoconfigure.data.ldap.LdapRepositoriesAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.data.mongo.MongoDataAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.data.mongo.MongoReactiveDataAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.data.mongo.MongoReactiveRepositoriesAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.data.mongo.MongoRepositoriesAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.data.neo4j.Neo4jDataAutoConfiguration"
   },
   {
-    "name": "org.springframework.boot.autoconfigure.data.neo4j.Neo4jReactiveDataAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.data.neo4j.Neo4jReactiveRepositoriesAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.data.neo4j.Neo4jRepositoriesAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.data.r2dbc.R2dbcDataAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.data.r2dbc.R2dbcRepositoriesAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.data.redis.RedisRepositoriesAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
   },
   {
     "name": "org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoConfiguration"
@@ -2260,26 +2375,7 @@
     "allPublicMethods": true
   },
   {
-    "name": "org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration",
-    "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration"
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.freemarker.FreeMarkerTemplateAvailabilityProvider",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration",
     "methods": [
       {
         "name": "<init>",
@@ -2300,36 +2396,13 @@
     "name": "org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration"
   },
   {
-    "name": "org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.h2.H2ConsoleProperties",
-    "allDeclaredConstructors": true,
-    "allPublicMethods": true
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.h2.H2ConsoleProperties$Settings",
-    "allDeclaredConstructors": true,
-    "allPublicMethods": true
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.hazelcast.HazelcastAutoConfiguration"
   },
   {
     "name": "org.springframework.boot.autoconfigure.http.GsonHttpMessageConvertersConfiguration",
-    "allDeclaredConstructors": true
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.http.HttpMessageConverters",
@@ -2339,13 +2412,7 @@
     "name": "org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$NotReactiveWebApplicationCondition",
@@ -2378,16 +2445,9 @@
   },
   {
     "name": "org.springframework.boot.autoconfigure.http.JsonbHttpMessageConvertersConfiguration",
-    "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration",
@@ -2418,13 +2478,7 @@
     "name": "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration",
@@ -2463,13 +2517,7 @@
     "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$EmbeddedDatabaseCondition",
@@ -2549,12 +2597,6 @@
     "allPublicMethods": true
   },
   {
-    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
@@ -2585,13 +2627,7 @@
     "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration",
@@ -2619,13 +2655,7 @@
     "name": "org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration",
@@ -2670,34 +2700,7 @@
     "name": "org.springframework.boot.autoconfigure.jms.artemis.ArtemisAutoConfiguration"
   },
   {
-    "name": "org.springframework.boot.autoconfigure.jooq.JooqAutoConfiguration"
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.ldap.LdapAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.ldap.embedded.EmbeddedLdapAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.mongo.MongoReactiveAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.mongo.embedded.EmbeddedMongoAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration"
   },
   {
     "name": "org.springframework.boot.autoconfigure.mustache.MustacheTemplateAvailabilityProvider",
@@ -2707,14 +2710,6 @@
         "parameterTypes": []
       }
     ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.neo4j.Neo4jAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher$Registrar",
@@ -2729,13 +2724,7 @@
     "name": "org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration",
@@ -2771,18 +2760,6 @@
     "allPublicMethods": true
   },
   {
-    "name": "org.springframework.boot.autoconfigure.r2dbc.R2dbcAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.r2dbc.R2dbcTransactionManagerAutoConfiguration"
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.rsocket.RSocketMessagingAutoConfiguration"
   },
   {
@@ -2801,13 +2778,15 @@
     "name": "org.springframework.boot.autoconfigure.security.DefaultWebSecurityCondition$Beans",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.security.DefaultWebSecurityCondition$Classes",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.security.SecurityDataConfiguration"
@@ -2828,61 +2807,10 @@
     "allPublicMethods": true
   },
   {
-    "name": "org.springframework.boot.autoconfigure.security.oauth2.client.reactive.ReactiveOAuth2ClientAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.security.oauth2.resource.reactive.ReactiveOAuth2ResourceServerAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration$ReactiveUserDetailsServiceCondition",
@@ -2906,25 +2834,13 @@
     "name": "org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration",
@@ -2936,13 +2852,7 @@
     "name": "org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.security.servlet.WebSecurityEnablerConfiguration",
@@ -2954,13 +2864,7 @@
     "name": "org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.task.TaskExecutionProperties",
@@ -2999,15 +2903,6 @@
     "allPublicMethods": true
   },
   {
-    "name": "org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.thymeleaf.ThymeleafTemplateAvailabilityProvider",
     "methods": [
       {
@@ -3020,13 +2915,7 @@
     "name": "org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration",
@@ -3206,9 +3095,7 @@
     "allPublicMethods": true
   },
   {
-    "name": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow",
-    "allDeclaredConstructors": true,
-    "allPublicMethods": true
+    "name": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow"
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow$Accesslog",
@@ -3272,13 +3159,7 @@
     "name": "org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration$NotReactiveWebApplicationCondition",
@@ -3308,33 +3189,8 @@
     "allDeclaredMethods": true
   },
   {
-    "name": "org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$UndertowWebServerFactoryCustomizerConfiguration",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.web.embedded.TomcatWebServerFactoryCustomizer",
     "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.web.embedded.UndertowWebServerFactoryCustomizer",
-    "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.web.reactive.error.ErrorWebFluxAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.web.reactive.function.client.WebClientAutoConfiguration"
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.servlet.ConditionalOnMissingFilterBean",
@@ -3367,6 +3223,10 @@
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath",
+    "allDeclaredConstructors": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletRegistrationBean",
@@ -3425,9 +3285,7 @@
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedUndertow",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "allDeclaredConstructors": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer",
@@ -3438,20 +3296,10 @@
     "allDeclaredConstructors": true
   },
   {
-    "name": "org.springframework.boot.autoconfigure.web.servlet.UndertowServletWebServerFactoryCustomizer",
-    "allDeclaredConstructors": true
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration",
@@ -3532,7 +3380,28 @@
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true,
-    "allPublicMethods": true
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "errorHtml",
+        "parameterTypes": [
+          "javax.servlet.http.HttpServletRequest",
+          "javax.servlet.http.HttpServletResponse"
+        ]
+      },
+      {
+        "name": "error",
+        "parameterTypes": [
+          "javax.servlet.http.HttpServletRequest"
+        ]
+      },
+      {
+        "name": "mediaTypeNotAcceptable",
+        "parameterTypes": [
+          "javax.servlet.http.HttpServletRequest"
+        ]
+      }
+    ]
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.servlet.error.DefaultErrorViewResolver",
@@ -3572,15 +3441,6 @@
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.servlet.error.ErrorViewResolver"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.webservices.client.WebServiceTemplateAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
   },
   {
     "name": "org.springframework.boot.autoconfigure.websocket.servlet.TomcatWebSocketServletWebServerCustomizer",
@@ -3830,6 +3690,12 @@
     "allDeclaredConstructors": true
   },
   {
+    "name": "org.springframework.boot.test.autoconfigure.OverrideAutoConfiguration",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory",
     "methods": [
       {
@@ -3837,6 +3703,12 @@
         "parameterTypes": []
       }
     ]
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener$PostProcessor",
@@ -3857,6 +3729,12 @@
     ]
   },
   {
+    "name": "org.springframework.boot.test.autoconfigure.filter.TypeExcludeFilters",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizerFactory",
     "methods": [
       {
@@ -3866,31 +3744,86 @@
     ]
   },
   {
+    "name": "org.springframework.boot.test.autoconfigure.jdbc.JdbcTest",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.jdbc.JdbcTestContextBootstrapper",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.jdbc.JdbcTypeExcludeFilter",
+    "allDeclaredConstructors": true
+  },
+  {
     "name": "org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactoryBean",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.json.JsonTest",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.json.JsonTestContextBootstrapper",
+    "allDeclaredConstructors": true
   },
   {
     "name": "org.springframework.boot.test.autoconfigure.json.JsonTestersAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.json.JsonTestersAutoConfiguration$JacksonJsonTestersConfiguration",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.json.JsonTestersAutoConfiguration$JsonMarshalTestersBeanPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.json.JsonTypeExcludeFilter",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTypeExcludeFilter",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager",
+    "allDeclaredConstructors": true
   },
   {
     "name": "org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizerFactory",
@@ -3903,12 +3836,9 @@
   },
   {
     "name": "org.springframework.boot.test.autoconfigure.restdocs.RestDocsAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener",
@@ -3921,12 +3851,9 @@
   },
   {
     "name": "org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener",
@@ -3939,25 +3866,19 @@
   },
   {
     "name": "org.springframework.boot.test.autoconfigure.web.client.WebClientRestTemplateAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
-    "name": "org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "name": "org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc",
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration",
-    "allDeclaredConstructors": true
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener",
@@ -3969,19 +3890,8 @@
     ]
   },
   {
-    "name": "org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration"
+    "name": "org.springframework.boot.test.autoconfigure.web.servlet.SpringBootMockMvcBuilderCustomizer",
+    "allDeclaredConstructors": true
   },
   {
     "name": "org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory",
@@ -4002,13 +3912,18 @@
     ]
   },
   {
-    "name": "org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerAutoConfiguration",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
+    "name": "org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTypeExcludeFilter",
+    "allDeclaredConstructors": true
   },
   {
     "name": "org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener",
@@ -4020,7 +3935,13 @@
     ]
   },
   {
-    "name": "org.springframework.boot.test.autoconfigure.webservices.client.WebServiceClientTemplateAutoConfiguration"
+    "name": "org.springframework.boot.test.context.ImportsContextCustomizer$ImportsCleanupPostProcessor",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.context.ImportsContextCustomizer$ImportsSelector",
+    "allDeclaredConstructors": true
   },
   {
     "name": "org.springframework.boot.test.context.ImportsContextCustomizerFactory",
@@ -4030,6 +3951,28 @@
         "parameterTypes": []
       }
     ]
+  },
+  {
+    "name": "org.springframework.boot.test.context.SpringBootContextLoader",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.context.SpringBootTest",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.context.SpringBootTest$WebEnvironment",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizerFactory",
@@ -4059,6 +4002,15 @@
     ]
   },
   {
+    "name": "org.springframework.boot.test.mock.mockito.MockitoPostProcessor",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
     "name": "org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener",
     "methods": [
       {
@@ -4081,6 +4033,21 @@
     "allDeclaredConstructors": true
   },
   {
+    "name": "org.springframework.boot.test.web.client.MockServerRestTemplateCustomizer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer$TestRestTemplateFactory",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer$TestRestTemplateRegistrar",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.boot.test.web.client.TestRestTemplateContextCustomizerFactory",
     "methods": [
       {
@@ -4088,6 +4055,17 @@
         "parameterTypes": []
       }
     ]
+  },
+  {
+    "name": "org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer$WebTestClientFactory",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer$WebTestClientRegistrar",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizerFactory",
@@ -4111,9 +4089,6 @@
   {
     "name": "org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory",
     "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFactory"
   },
   {
     "name": "org.springframework.boot.web.server.Compression",
@@ -4153,10 +4128,6 @@
   },
   {
     "name": "org.springframework.boot.web.servlet.FilterRegistrationBean",
-    "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.springframework.boot.web.servlet.ServletRegistrationBean",
     "allDeclaredConstructors": true
   },
   {
@@ -4221,16 +4192,6 @@
   },
   {
     "name": "org.springframework.cache.CacheManager"
-  },
-  {
-    "name": "org.springframework.cache.annotation.CachingConfigurationSelector",
-    "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.springframework.cache.annotation.EnableCaching",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.cache.concurrent.ConcurrentMapCacheManager",
@@ -4381,7 +4342,8 @@
     "name": "org.springframework.context.annotation.EnableAspectJAutoProxy",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
   },
   {
     "name": "org.springframework.context.annotation.FilterType",
@@ -4415,6 +4377,10 @@
   },
   {
     "name": "org.springframework.context.annotation.Primary",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.context.annotation.Profile",
     "allDeclaredMethods": true
   },
   {
@@ -4494,6 +4460,14 @@
     "allDeclaredConstructors": true
   },
   {
+    "name": "org.springframework.data.convert.ReadingConverter",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.convert.WritingConverter",
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.data.geo.GeoModule",
     "allDeclaredConstructors": true
   },
@@ -4505,7 +4479,7 @@
   },
   {
     "name": "org.springframework.data.jpa.repository.Query",
-    "allPublicMethods": true
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.data.jpa.repository.config.EnableJpaRepositories",
@@ -4577,6 +4551,12 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "org.springframework.data.projection.SpelEvaluatingMethodInterceptor$TargetWrapper",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.data.querydsl.binding.QuerydslBindingsFactory"
   },
   {
@@ -4618,6 +4598,12 @@
   },
   {
     "name": "org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.repository.core.support.RepositoryFragment",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
@@ -4731,6 +4717,7 @@
   },
   {
     "name": "org.springframework.http.HttpEntity",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
@@ -4745,6 +4732,16 @@
   },
   {
     "name": "org.springframework.http.ResponseEntity",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.http.client.AbstractClientHttpRequestFactoryWrapper",
+    "allDeclaredFields": true
+  },
+  {
+    "name": "org.springframework.http.client.SimpleClientHttpRequestFactory",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
@@ -5272,6 +5269,24 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "org.springframework.test.context.ActiveProfiles",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.BootstrapWith",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.TestPropertySource",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.test.context.event.ApplicationEventsTestExecutionListener",
     "methods": [
       {
@@ -5290,6 +5305,24 @@
     ]
   },
   {
+    "name": "org.springframework.test.context.jdbc.Sql",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.jdbc.SqlGroup",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.jdbc.SqlMergeMode",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener",
     "methods": [
       {
@@ -5297,6 +5330,18 @@
         "parameterTypes": []
       }
     ]
+  },
+  {
+    "name": "org.springframework.test.context.junit.jupiter.SpringExtension",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.support.DefaultBootstrapContext",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.test.context.support.DependencyInjectionTestExecutionListener",
@@ -5353,6 +5398,10 @@
     ]
   },
   {
+    "name": "org.springframework.test.context.web.WebAppConfiguration",
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.test.context.web.socket.MockServerContainerContextCustomizerFactory",
     "methods": [
       {
@@ -5360,6 +5409,21 @@
         "parameterTypes": []
       }
     ]
+  },
+  {
+    "name": "org.springframework.test.web.client.MockRestServiceServer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.web.servlet.MockMvc",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.web.servlet.MockMvcBuilder"
+  },
+  {
+    "name": "org.springframework.test.web.servlet.setup.DefaultMockMvcBuilder",
+    "allDeclaredConstructors": true
   },
   {
     "name": "org.springframework.transaction.PlatformTransactionManager",
@@ -5550,6 +5614,10 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "org.springframework.web.bind.annotation.RequestPart",
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.web.bind.annotation.ResponseBody",
     "allDeclaredMethods": true
   },
@@ -5562,7 +5630,8 @@
     "allDeclaredMethods": true
   },
   {
-    "name": "org.springframework.web.client.RestTemplate"
+    "name": "org.springframework.web.client.RestTemplate",
+    "allDeclaredConstructors": true
   },
   {
     "name": "org.springframework.web.context.ConfigurableWebApplicationContext",
@@ -5761,9 +5830,6 @@
   {
     "name": "org.springframework.web.util.pattern.PathPatternParser",
     "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.xnio.SslClientAuthMode"
   },
   {
     "name": "org.yaml.snakeyaml.Yaml",

@@ -118,6 +118,12 @@
     "allDeclaredConstructors": true
   },
   {
+    "name": "com.example.demo.jwt.JwtResponse",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "com.example.demo.jwt.JwtUtils",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
@@ -127,11 +133,19 @@
   },
   {
     "name": "com.example.demo.jwt.LoginRequest",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
   {
     "name": "com.example.demo.jwt.SignupRequest",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.example.demo.jwt.UserDetailsImpl",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
@@ -142,6 +156,11 @@
     "allDeclaredMethods": true,
     "allPublicMethods": true,
     "allDeclaredClasses": true
+  },
+  {
+    "name": "com.example.demo.jwt.UserDetailsServiceImpl$$SpringProxy$9816547f",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "com.example.demo.model.Cart",
@@ -231,10 +250,34 @@
     "allDeclaredClasses": true
   },
   {
+    "name": "com.fasterxml.jackson.annotation.JacksonAnnotation",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonAnyGetter",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonAnySetter",
+    "allDeclaredMethods": true
+  },
+  {
     "name": "com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility"
   },
   {
+    "name": "com.fasterxml.jackson.annotation.JsonCreator",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonGetter",
+    "allDeclaredMethods": true
+  },
+  {
     "name": "com.fasterxml.jackson.annotation.JsonIgnore",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonIgnoreProperties",
     "allDeclaredMethods": true
   },
   {
@@ -243,6 +286,34 @@
   },
   {
     "name": "com.fasterxml.jackson.annotation.JsonInclude$Include",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonProperty",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonPropertyOrder",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonSetter",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonTypeInfo",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonUnwrapped",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonValue",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.annotation.JsonView",
     "allDeclaredMethods": true
   },
   {
@@ -271,6 +342,14 @@
   },
   {
     "name": "com.fasterxml.jackson.databind.SerializationFeature"
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.annotation.JsonDeserialize",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.annotation.JsonSerialize",
+    "allDeclaredMethods": true
   },
   {
     "name": "com.fasterxml.jackson.module.paramnames.ParameterNamesModule",
@@ -302,12 +381,6 @@
   },
   {
     "name": "com.zaxxer.hikari.util.ConcurrentBag$IConcurrentBagEntry[]"
-  },
-  {
-    "name": "io.undertow.Undertow"
-  },
-  {
-    "name": "io.undertow.websockets.WebSocketProtocolHandshakeHandler"
   },
   {
     "name": "java.io.Serializable",
@@ -382,6 +455,10 @@
     "name": "java.lang.annotation.Annotation",
     "allDeclaredConstructors": true,
     "allPublicMethods": true
+  },
+  {
+    "name": "java.lang.reflect.Proxy",
+    "allDeclaredMethods": true
   },
   {
     "name": "java.math.BigDecimal",
@@ -505,10 +582,38 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "java.util.HashMap",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "fields": [
+      {
+        "name": "threshold",
+        "allowUnsafeAccess": true
+      },
+      {
+        "name": "loadFactor",
+        "allowUnsafeAccess": true
+      }
+    ]
+  },
+  {
+    "name": "java.util.LinkedHashSet",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "java.util.List",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
+  },
+  {
+    "name": "java.util.Locale"
+  },
+  {
+    "name": "java.util.Map"
   },
   {
     "name": "java.util.Optional",
@@ -520,9 +625,31 @@
     "name": "java.util.Properties"
   },
   {
+    "name": "java.util.Set",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "java.util.TimeZone"
+  },
+  {
     "name": "java.util.concurrent.Callable",
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
+  },
+  {
+    "name": "java.util.concurrent.CopyOnWriteArrayList",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "fields": [
+      {
+        "name": "lock",
+        "allowWrite": true,
+        "allowUnsafeAccess": true
+      }
+    ]
   },
   {
     "name": "java.util.concurrent.Executor"
@@ -578,7 +705,17 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "javax.persistence.InheritanceType",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "javax.persistence.JoinColumn",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "javax.persistence.ManyToMany",
     "allDeclaredMethods": true
   },
   {
@@ -587,6 +724,14 @@
   },
   {
     "name": "javax.persistence.MappedSuperclass",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "javax.persistence.OneToMany",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "javax.persistence.OneToOne",
     "allDeclaredMethods": true
   },
   {
@@ -742,7 +887,32 @@
     "name": "org.apache.tomcat.websocket.server.WsSci"
   },
   {
+    "name": "org.aspectj.lang.annotation.After",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.aspectj.lang.annotation.AfterReturning",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
     "name": "org.aspectj.lang.annotation.Around",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.aspectj.lang.annotation.Aspect",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.aspectj.lang.annotation.Before",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.aspectj.lang.annotation.Pointcut",
     "allDeclaredConstructors": true,
     "allPublicMethods": true
   },
@@ -750,82 +920,41 @@
     "name": "org.aspectj.weaver.Advice"
   },
   {
-    "name": "org.eclipse.jetty.websocket.server.WebSocketServerFactory"
+    "name": "org.aspectj.weaver.reflect.Java15AnnotationFinder",
+    "allDeclaredConstructors": true
   },
   {
-    "name": "org.h2.mvstore.db.MVTableEngine",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "name": "org.aspectj.weaver.reflect.Java15GenericSignatureInformationProvider",
+    "allDeclaredConstructors": true
   },
   {
-    "name": "org.h2.server.web.WebServlet"
+    "name": "org.aspectj.weaver.reflect.Java15ReflectionBasedReferenceTypeDelegate",
+    "allDeclaredConstructors": true
   },
   {
-    "name": "org.h2.store.fs.FilePathAsync",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "name": "org.bouncycastle.jcajce.provider.asymmetric.RSA",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
   },
   {
-    "name": "org.h2.store.fs.FilePathDisk",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "name": "org.bouncycastle.jcajce.provider.asymmetric.RSA$Mappings",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
   },
   {
-    "name": "org.h2.store.fs.FilePathMem",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "name": "org.bouncycastle.jcajce.provider.asymmetric.rsa.KeyFactorySpi",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
   },
   {
-    "name": "org.h2.store.fs.FilePathMemLZF",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "name": "org.bouncycastle.jcajce.provider.asymmetric.rsa.PSSSignatureSpi$SHA512withRSA",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
   },
   {
-    "name": "org.h2.store.fs.FilePathNio",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathNioMapped",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathNioMem",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathNioMemLZF",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathRetryOnInterrupt",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathSplit",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.h2.store.fs.FilePathZip",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "name": "org.bouncycastle.jce.provider.BouncyCastleProvider",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
   },
   {
     "name": "org.hibernate.Session",
@@ -851,16 +980,19 @@
   },
   {
     "name": "org.hibernate.bytecode.enhance.internal.tracker.DirtyTracker",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
   {
     "name": "org.hibernate.bytecode.enhance.spi.CollectionTracker",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
   {
     "name": "org.hibernate.bytecode.enhance.spi.LazyPropertyInitializer$InterceptorImplementor",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
@@ -871,19 +1003,67 @@
     "allDeclaredMethods": true
   },
   {
-    "name": "org.hibernate.dialect.H2Dialect",
+    "name": "org.hibernate.cfg.beanvalidation.TypeSafeActivator"
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL10Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL81Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL82Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL91Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL92Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL93Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL94Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL95Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgreSQL9Dialect",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.dialect.PostgresPlusDialect",
     "allDeclaredConstructors": true
   },
   {
     "name": "org.hibernate.engine.spi.EntityEntry",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
   {
     "name": "org.hibernate.engine.spi.ExtendedSelfDirtinessTracker",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true,
-    "allPublicMethods": true
+    "allPublicMethods": true,
+    "fields": [
+      {
+        "name": "REMOVE_DIRTY_FIELDS_NAME",
+        "allowWrite": true,
+        "allowUnsafeAccess": true
+      }
+    ]
   },
   {
     "name": "org.hibernate.engine.spi.Managed",
@@ -908,6 +1088,7 @@
   },
   {
     "name": "org.hibernate.engine.spi.PersistentAttributeInterceptor",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
@@ -1515,6 +1696,25 @@
     "allDeclaredConstructors": true
   },
   {
+    "name": "org.hibernate.type.EnumType",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.postgresql.Driver",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.postgresql.PGProperty",
+    "allDeclaredFields": true
+  },
+  {
+    "name": "org.slf4j.bridge.SLF4JBridgeHandler"
+  },
+  {
     "name": "org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator",
     "allDeclaredConstructors": true,
     "allPublicMethods": true
@@ -1639,6 +1839,12 @@
         "name": "setBannerMode",
         "parameterTypes": [
           "org.springframework.boot.Banner$Mode"
+        ]
+      },
+      {
+        "name": "setWebApplicationType",
+        "parameterTypes": [
+          "org.springframework.boot.WebApplicationType"
         ]
       }
     ]
@@ -2029,7 +2235,12 @@
   {
     "name": "org.springframework.boot.autoconfigure.context.MessageSourceProperties",
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "fields": [
+      {
+        "name": "cacheDuration"
+      }
+    ]
   },
   {
     "name": "org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration",
@@ -2144,22 +2355,6 @@
   },
   {
     "name": "org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration"
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.h2.H2ConsoleProperties",
-    "allDeclaredConstructors": true,
-    "allPublicMethods": true
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.h2.H2ConsoleProperties$Settings",
-    "allDeclaredConstructors": true,
-    "allPublicMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.hazelcast.HazelcastAutoConfiguration"
@@ -2359,12 +2554,6 @@
     "allPublicMethods": true
   },
   {
-    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
@@ -2480,11 +2669,6 @@
     ]
   },
   {
-    "name": "org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher$Registrar",
     "allDeclaredConstructors": true,
     "allPublicMethods": true
@@ -2551,13 +2735,15 @@
     "name": "org.springframework.boot.autoconfigure.security.DefaultWebSecurityCondition$Beans",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.security.DefaultWebSecurityCondition$Classes",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.security.SecurityDataConfiguration"
@@ -2866,9 +3052,7 @@
     "allPublicMethods": true
   },
   {
-    "name": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow",
-    "allDeclaredConstructors": true,
-    "allPublicMethods": true
+    "name": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow"
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow$Accesslog",
@@ -2962,17 +3146,7 @@
     "allDeclaredMethods": true
   },
   {
-    "name": "org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$UndertowWebServerFactoryCustomizerConfiguration",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
-  },
-  {
     "name": "org.springframework.boot.autoconfigure.web.embedded.TomcatWebServerFactoryCustomizer",
-    "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.web.embedded.UndertowWebServerFactoryCustomizer",
     "allDeclaredConstructors": true
   },
   {
@@ -3064,9 +3238,7 @@
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedUndertow",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "allDeclaredConstructors": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer",
@@ -3074,10 +3246,6 @@
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.servlet.TomcatServletWebServerFactoryCustomizer",
-    "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.springframework.boot.autoconfigure.web.servlet.UndertowServletWebServerFactoryCustomizer",
     "allDeclaredConstructors": true
   },
   {
@@ -3165,7 +3333,28 @@
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true,
-    "allPublicMethods": true
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "errorHtml",
+        "parameterTypes": [
+          "javax.servlet.http.HttpServletRequest",
+          "javax.servlet.http.HttpServletResponse"
+        ]
+      },
+      {
+        "name": "error",
+        "parameterTypes": [
+          "javax.servlet.http.HttpServletRequest"
+        ]
+      },
+      {
+        "name": "mediaTypeNotAcceptable",
+        "parameterTypes": [
+          "javax.servlet.http.HttpServletRequest"
+        ]
+      }
+    ]
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.servlet.error.DefaultErrorViewResolver",
@@ -3468,9 +3657,6 @@
     "allDeclaredConstructors": true
   },
   {
-    "name": "org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFactory"
-  },
-  {
     "name": "org.springframework.boot.web.server.Compression",
     "allDeclaredConstructors": true,
     "allPublicMethods": true
@@ -3508,10 +3694,6 @@
   },
   {
     "name": "org.springframework.boot.web.servlet.FilterRegistrationBean",
-    "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.springframework.boot.web.servlet.ServletRegistrationBean",
     "allDeclaredConstructors": true
   },
   {
@@ -3576,16 +3758,6 @@
   },
   {
     "name": "org.springframework.cache.CacheManager"
-  },
-  {
-    "name": "org.springframework.cache.annotation.CachingConfigurationSelector",
-    "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.springframework.cache.annotation.EnableCaching",
-    "allDeclaredFields": true,
-    "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.cache.concurrent.ConcurrentMapCacheManager",
@@ -3736,7 +3908,8 @@
     "name": "org.springframework.context.annotation.EnableAspectJAutoProxy",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
   },
   {
     "name": "org.springframework.context.annotation.FilterType",
@@ -3770,6 +3943,10 @@
   },
   {
     "name": "org.springframework.context.annotation.Primary",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.context.annotation.Profile",
     "allDeclaredMethods": true
   },
   {
@@ -3849,6 +4026,14 @@
     "allDeclaredConstructors": true
   },
   {
+    "name": "org.springframework.data.convert.ReadingConverter",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.convert.WritingConverter",
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.data.geo.GeoModule",
     "allDeclaredConstructors": true
   },
@@ -3860,7 +4045,7 @@
   },
   {
     "name": "org.springframework.data.jpa.repository.Query",
-    "allPublicMethods": true
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.data.jpa.repository.config.EnableJpaRepositories",
@@ -3932,6 +4117,12 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "org.springframework.data.projection.SpelEvaluatingMethodInterceptor$TargetWrapper",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.data.querydsl.binding.QuerydslBindingsFactory"
   },
   {
@@ -3973,6 +4164,12 @@
   },
   {
     "name": "org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.repository.core.support.RepositoryFragment",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
@@ -4086,6 +4283,7 @@
   },
   {
     "name": "org.springframework.http.HttpEntity",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
@@ -4100,6 +4298,16 @@
   },
   {
     "name": "org.springframework.http.ResponseEntity",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.http.client.AbstractClientHttpRequestFactoryWrapper",
+    "allDeclaredFields": true
+  },
+  {
+    "name": "org.springframework.http.client.SimpleClientHttpRequestFactory",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true
@@ -4815,6 +5023,10 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "org.springframework.web.bind.annotation.RequestPart",
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.web.bind.annotation.ResponseBody",
     "allDeclaredMethods": true
   },
@@ -5026,9 +5238,6 @@
   {
     "name": "org.springframework.web.util.pattern.PathPatternParser",
     "allDeclaredConstructors": true
-  },
-  {
-    "name": "org.xnio.SslClientAuthMode"
   },
   {
     "name": "org.yaml.snakeyaml.Yaml",

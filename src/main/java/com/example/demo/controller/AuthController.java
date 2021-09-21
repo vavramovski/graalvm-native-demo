@@ -3,9 +3,11 @@ package com.example.demo.controller;
 import com.example.demo.jwt.*;
 import com.example.demo.model.Customer;
 import com.example.demo.repository.CustomerRepository;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -13,10 +15,9 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Optional;
 
 @RestController
 @RequiredArgsConstructor
@@ -28,12 +29,13 @@ public class AuthController {
 
     private final CustomerRepository userRepository;
 
-    private final BCryptPasswordEncoder encoder;
+    private final PasswordEncoder encoder;
 
     private final JwtUtils jwtUtils;
 
-    @PostMapping("/signin")
-    public ResponseEntity<?> authenticateUser(@RequestBody LoginRequest loginRequest) {
+    @RequestMapping(value = "/signin", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    @ResponseBody
+    public ResponseEntity<JwtResponse> authenticateUser(@RequestBody LoginRequest loginRequest) {
 
         Authentication authentication = authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword()));
@@ -45,18 +47,26 @@ public class AuthController {
 
         return ResponseEntity.ok(new JwtResponse(jwt,
                 userDetails.getId(),
-                userDetails.getUsername()));
+                userDetails.getUsername()
+        ));
     }
 
-    @PostMapping("/signup")
+    @RequestMapping(value = "/signup", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<?> registerUser(@RequestBody SignupRequest signUpRequest) {
-        // Create new user's account
+        Optional<Customer> optionalCustomer = userRepository.findByName(signUpRequest.getUsername());
+        if (optionalCustomer.isPresent()) {
+            return ResponseEntity
+                    .badRequest()
+                    .body(new MessageResponse("Error: Username is already taken!"));
+        }
+
         Customer user = new Customer(signUpRequest.getUsername(), encoder.encode(signUpRequest.getPassword()));
 
         userRepository.save(user);
 
-        return ResponseEntity.ok(user);
+        return ResponseEntity.ok(new MessageResponse("User registered successfully!"));
     }
+
 
 
 }

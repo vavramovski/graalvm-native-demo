@@ -11,6 +11,9 @@
         "pattern": "META-INF/services/.*"
       },
       {
+        "pattern": "META-INF/spring.binders"
+      },
+      {
         "pattern": "META-INF/spring.components"
       },
       {
@@ -51,6 +54,9 @@
       },
       {
         "pattern": "com/example/demo/DemoApplication.class"
+      },
+      {
+        "pattern": "com/example/demo/DemoApplicationTests.class"
       },
       {
         "pattern": "com/example/demo/InitDB.class"
@@ -116,6 +122,60 @@
         "pattern": "com/example/demo/service/impl/ProductServiceImpl.class"
       },
       {
+        "pattern": "com/fasterxml/jackson/annotation/JacksonAnnotation.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonAnyGetter.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonAnySetter.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonCreator.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonGetter.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonIgnore.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonIgnoreProperties.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonInclude.Include.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonInclude.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonProperty.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonPropertyOrder.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonSetter.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonTypeInfo.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonUnwrapped.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonValue.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/annotation/JsonView.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/databind/annotation/JsonDeserialize.class"
+      },
+      {
+        "pattern": "com/fasterxml/jackson/databind/annotation/JsonSerialize.class"
+      },
+      {
         "pattern": "data.sql"
       },
       {
@@ -150,6 +210,12 @@
       },
       {
         "pattern": "java/util/EventObject.class"
+      },
+      {
+        "pattern": "java/util/HashMap.class"
+      },
+      {
+        "pattern": "java/util/concurrent/CopyOnWriteArrayList.class"
       },
       {
         "pattern": "javax/persistence/Entity.class"
@@ -200,6 +266,9 @@
         "pattern": "org/hibernate/engine/spi/SelfDirtinessTracker.class"
       },
       {
+        "pattern": "org/quartz/impl/jdbcjobstore/tables_.*.sql$"
+      },
+      {
         "pattern": "org/springframework/beans/factory/Aware.class"
       },
       {
@@ -213,6 +282,9 @@
       },
       {
         "pattern": "org/springframework/beans/factory/SmartInitializingSingleton.class"
+      },
+      {
+        "pattern": "org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class"
       },
       {
         "pattern": "org/springframework/beans/factory/config/BeanFactoryPostProcessor.class"
@@ -234,6 +306,12 @@
       },
       {
         "pattern": "org/springframework/boot/autoconfigure/EnableAutoConfiguration.class"
+      },
+      {
+        "pattern": "org/springframework/boot/autoconfigure/ImportAutoConfiguration.class"
+      },
+      {
+        "pattern": "org/springframework/boot/autoconfigure/ImportAutoConfigurationImportSelector.class"
       },
       {
         "pattern": "org/springframework/boot/autoconfigure/SpringBootApplication.class"
@@ -423,9 +501,6 @@
       },
       {
         "pattern": "org/springframework/boot/autoconfigure/data/web/SpringDataWebAutoConfiguration.class"
-      },
-      {
-        "pattern": "org/springframework/boot/autoconfigure/h2/H2ConsoleAutoConfiguration.class"
       },
       {
         "pattern": "org/springframework/boot/autoconfigure/http/GsonHttpMessageConvertersConfiguration.class"
@@ -671,9 +746,6 @@
         "pattern": "org/springframework/boot/autoconfigure/web/embedded/EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration.class"
       },
       {
-        "pattern": "org/springframework/boot/autoconfigure/web/embedded/EmbeddedWebServerFactoryCustomizerAutoConfiguration.UndertowWebServerFactoryCustomizerConfiguration.class"
-      },
-      {
         "pattern": "org/springframework/boot/autoconfigure/web/embedded/EmbeddedWebServerFactoryCustomizerAutoConfiguration.class"
       },
       {
@@ -761,6 +833,12 @@
         "pattern": "org/springframework/boot/context/properties/ConfigurationPropertiesBindingPostProcessor.class"
       },
       {
+        "pattern": "org/springframework/boot/context/properties/ConfigurationPropertiesScan.class"
+      },
+      {
+        "pattern": "org/springframework/boot/context/properties/ConfigurationPropertiesScanRegistrar.class"
+      },
+      {
         "pattern": "org/springframework/boot/context/properties/EnableConfigurationProperties.class"
       },
       {
@@ -776,6 +854,66 @@
         "pattern": "org/springframework/boot/logging/java/logging.properties"
       },
       {
+        "pattern": "org/springframework/boot/test/autoconfigure/jdbc/JdbcTest.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/autoconfigure/jdbc/TestDatabaseAutoConfiguration.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/autoconfigure/json/JsonTest.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/autoconfigure/json/JsonTestersAutoConfiguration.JacksonJsonTestersConfiguration.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/autoconfigure/json/JsonTestersAutoConfiguration.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/autoconfigure/orm/jpa/DataJpaTest.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/autoconfigure/orm/jpa/TestEntityManagerAutoConfiguration.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/autoconfigure/restdocs/RestDocsAutoConfiguration.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/autoconfigure/web/client/MockRestServiceServerAutoConfiguration.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/autoconfigure/web/client/WebClientRestTemplateAutoConfiguration.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/autoconfigure/web/servlet/AutoConfigureMockMvc.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/autoconfigure/web/servlet/MockMvcAutoConfiguration.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/autoconfigure/web/servlet/WebMvcTest.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/context/ImportsContextCustomizer$ImportsCleanupPostProcessor.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/context/ImportsContextCustomizer$ImportsSelector.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/context/SpringBootTest.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/mock/mockito/MockitoPostProcessor$SpyPostProcessor.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/mock/mockito/MockitoPostProcessor.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/web/client/TestRestTemplateContextCustomizer$TestRestTemplateRegistrar.class"
+      },
+      {
+        "pattern": "org/springframework/boot/test/web/reactive/server/WebTestClientContextCustomizer$WebTestClientRegistrar.class"
+      },
+      {
         "pattern": "org/springframework/boot/web/server/ErrorPageRegistrarBeanPostProcessor.class"
       },
       {
@@ -785,10 +923,7 @@
         "pattern": "org/springframework/boot/web/servlet/error/ErrorController.class"
       },
       {
-        "pattern": "org/springframework/cache/annotation/CachingConfigurationSelector.class"
-      },
-      {
-        "pattern": "org/springframework/cache/annotation/EnableCaching.class"
+        "pattern": "org/springframework/context/ApplicationContext.class"
       },
       {
         "pattern": "org/springframework/context/ApplicationContextAware.class"
@@ -818,6 +953,9 @@
         "pattern": "org/springframework/context/annotation/Bean.class"
       },
       {
+        "pattern": "org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.class"
+      },
+      {
         "pattern": "org/springframework/context/annotation/Condition.class"
       },
       {
@@ -825,6 +963,9 @@
       },
       {
         "pattern": "org/springframework/context/annotation/Configuration.class"
+      },
+      {
+        "pattern": "org/springframework/context/annotation/ConfigurationClassPostProcessor.class"
       },
       {
         "pattern": "org/springframework/context/annotation/ConfigurationCondition.class"
@@ -854,10 +995,16 @@
         "pattern": "org/springframework/context/annotation/Primary.class"
       },
       {
+        "pattern": "org/springframework/context/annotation/Profile.class"
+      },
+      {
         "pattern": "org/springframework/context/annotation/Role.class"
       },
       {
         "pattern": "org/springframework/context/annotation/Scope.class"
+      },
+      {
+        "pattern": "org/springframework/context/event/EventListenerMethodProcessor.class"
       },
       {
         "pattern": "org/springframework/core/Ordered.class"
@@ -867,6 +1014,12 @@
       },
       {
         "pattern": "org/springframework/core/env/EnvironmentCapable.class"
+      },
+      {
+        "pattern": "org/springframework/data/convert/ReadingConverter.class"
+      },
+      {
+        "pattern": "org/springframework/data/convert/WritingConverter.class"
       },
       {
         "pattern": "org/springframework/data/jpa/repository/JpaRepository.class"
@@ -894,6 +1047,9 @@
       },
       {
         "pattern": "org/springframework/data/jpa/util/JpaMetamodelCacheCleanup.class"
+      },
+      {
+        "pattern": "org/springframework/data/projection/SpelEvaluatingMethodInterceptor.TargetWrapper.class"
       },
       {
         "pattern": "org/springframework/data/repository/CrudRepository.class"
@@ -1064,6 +1220,18 @@
         "pattern": "org/springframework/stereotype/Service.class"
       },
       {
+        "pattern": "org/springframework/test/context/ActiveProfiles.class"
+      },
+      {
+        "pattern": "org/springframework/test/context/BootstrapWith.class"
+      },
+      {
+        "pattern": "org/springframework/test/context/TestPropertySource.class"
+      },
+      {
+        "pattern": "org/springframework/test/context/web/WebAppConfiguration.class"
+      },
+      {
         "pattern": "org/springframework/transaction/annotation/AbstractTransactionManagementConfiguration.class"
       },
       {
@@ -1113,5 +1281,9 @@
       }
     ]
   },
-  "bundles": []
+  "bundles": [
+    {
+      "name": "org.aspectj.weaver.weaver-messages"
+    }
+  ]
 }

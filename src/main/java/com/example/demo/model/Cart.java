@@ -21,7 +21,7 @@ public class Cart {
     }
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToMany(fetch = FetchType.EAGER)
