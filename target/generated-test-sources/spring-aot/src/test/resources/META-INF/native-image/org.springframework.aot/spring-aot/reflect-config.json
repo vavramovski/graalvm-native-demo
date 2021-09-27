@@ -549,13 +549,6 @@
     "allDeclaredMethods": true
   },
   {
-    "name": "javax.cache.CacheManager",
-    "allDeclaredConstructors": true
-  },
-  {
-    "name": "javax.cache.Caching"
-  },
-  {
     "name": "javax.persistence.Column",
     "allDeclaredMethods": true
   },
@@ -768,6 +761,31 @@
   },
   {
     "name": "org.aspectj.weaver.Advice"
+  },
+  {
+    "name": "org.bouncycastle.jcajce.provider.asymmetric.RSA",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.bouncycastle.jcajce.provider.asymmetric.RSA$Mappings",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.bouncycastle.jcajce.provider.asymmetric.rsa.KeyFactorySpi",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.bouncycastle.jcajce.provider.asymmetric.rsa.PSSSignatureSpi$SHA512withRSA",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.bouncycastle.jce.provider.BouncyCastleProvider",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
   },
   {
     "name": "org.eclipse.jetty.websocket.server.WebSocketServerFactory"

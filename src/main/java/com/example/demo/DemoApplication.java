@@ -1,23 +1,41 @@
 package com.example.demo;
 
+import org.bouncycastle.jcajce.provider.asymmetric.RSA;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.nativex.hint.AccessBits;
 import org.springframework.nativex.hint.NativeHint;
+import org.springframework.nativex.hint.ResourceHint;
 import org.springframework.nativex.hint.TypeHint;
 
 
-/*@NativeHint(
+@NativeHint(
         types = {
                 @TypeHint(
-                        typeNames = "org.bouncycastle.jcajce.provider.asymmetric.RSA$Mappings",
-                        access= AccessBits.PUBLIC_CONSTRUCTORS | AccessBits.PUBLIC_METHODS
+                        typeNames = "org.bouncycastle.jcajce.provider.asymmetric.rsa.KeyFactorySpi",
+                        access = AccessBits.PUBLIC_CONSTRUCTORS | AccessBits.PUBLIC_METHODS
                 ),
                 @TypeHint(
-                        typeNames = "org.bouncycastle.jcajce.provider.asymmetric.rsa.KeyFactorySpi",
-                        access= AccessBits.PUBLIC_CONSTRUCTORS | AccessBits.PUBLIC_METHODS
+                        types = {RSA.class},
+                        typeNames = "org.bouncycastle.jcajce.provider.asymmetric.RSA$Mappings",
+                        access = AccessBits.PUBLIC_CONSTRUCTORS | AccessBits.PUBLIC_METHODS
+                ),
+                @TypeHint(
+                        types = {BouncyCastleProvider.class},
+                        access = AccessBits.PUBLIC_CONSTRUCTORS | AccessBits.PUBLIC_METHODS
+                ),
+                @TypeHint(
+                        typeNames = "org.bouncycastle.jcajce.provider.asymmetric.rsa.PSSSignatureSpi$SHA512withRSA",
+                        access = AccessBits.PUBLIC_CONSTRUCTORS | AccessBits.PUBLIC_METHODS
                 )
-        })*/
+        },
+        resources = {
+                @ResourceHint(
+                        patterns = "server.jks"
+                )
+        }
+)
 @SpringBootApplication
 public class DemoApplication {
 

@@ -1,5 +1,5 @@
 #
-#Thu Sep 16 23:49:42 CEST 2021
+#Fri Sep 24 18:47:02 CEST 2021
 com.example.demo.jwt.JwtUtils=org.springframework.stereotype.Component
 com.example.demo.repository.ProductRepository=org.springframework.data.repository.Repository
 com.example.demo.controller.AuthController=org.springframework.stereotype.Component

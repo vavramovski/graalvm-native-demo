@@ -1107,6 +1107,9 @@
       },
       {
         "pattern": "schema.sql"
+      },
+      {
+        "pattern": "server.jks"
       }
     ]
   },
